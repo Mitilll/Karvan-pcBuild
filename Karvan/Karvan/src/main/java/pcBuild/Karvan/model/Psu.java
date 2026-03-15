@@ -1,30 +1,21 @@
 package pcBuild.Karvan.model;
 
-import lombok.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-
 @Data
-@ToString
 @AllArgsConstructor
 @NoArgsConstructor
-@Document(collection = "VideoCard")
-public class VideoCard {
+@Document(collection = "Psu")
+public class Psu {
 
     @Id
-    private String gpuId;
+    private String psuId;
 
     private String image;
 
     private double priceRs;
-
-
-
-
-
-
 }
-
-
-

@@ -1,30 +1,23 @@
 package pcBuild.Karvan.model;
 
-import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "CPU")
+@Document(collection = "Cpu")
 public class Cpu {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_cpu;
+    private Long cpuId;
 
-    private String microarchitecture;
-    private String name;
+    private String image;
 
-    private String tdp;
-    private String graphics;
-
-    private int core_count;
-    private int core_clock;
-    private float boost_clock;
+    private double priceRs;
 
 
 }

@@ -15,9 +15,20 @@ public class Cpu {
     @Id
     private Long cpuId;
 
+    private String name;
+
+    private int core_count;
+
+    private double core_clock;
+
+    private int tdp;
+
+    private String graphics;
+
     private String image;
 
     private double priceRs;
 
+    private boolean forPc;
 
 }

@@ -17,10 +17,25 @@ public class Pc {
     @Id
     private String pcId;
 
+    private String imagePixel;
+
+    private String motherBoardId;
+
+    private String psuId;
+
+    private String cpuCoolerId;
+
+    private String caseId;
+
+    private String cpuId;
+
     private String gpuId;
 
-    private double TotalPriceRs;
+    private String ramId;
 
+    private String storageId ;
+
+    private double TotalPriceRs;
 
 }
 

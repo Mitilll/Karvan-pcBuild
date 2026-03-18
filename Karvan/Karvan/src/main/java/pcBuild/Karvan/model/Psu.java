@@ -15,6 +15,16 @@ public class Psu {
     @Id
     private String psuId;
 
+    private String name;
+
+    private String type;
+
+    private String efficiency;
+
+    private int wattage;
+
+    private String modular;
+
     private String image;
 
     private double priceRs;

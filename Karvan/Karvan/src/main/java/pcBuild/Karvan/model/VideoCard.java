@@ -15,6 +15,16 @@ public class VideoCard {
     @Id
     private String gpuId;
 
+    private String name;
+
+    private String chipset;
+
+    private int memory;
+
+    private int core_clock;
+
+    private int boost_clock;
+
     private String image;
 
     private double priceRs;

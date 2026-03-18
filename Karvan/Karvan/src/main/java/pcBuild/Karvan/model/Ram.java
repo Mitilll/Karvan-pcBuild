@@ -15,6 +15,12 @@ public class Ram {
     @Id
     private String ramId;
 
+    private String name;
+
+    private int speed;
+
+    private int modules;
+
     private String image;
 
     private double priceRs;

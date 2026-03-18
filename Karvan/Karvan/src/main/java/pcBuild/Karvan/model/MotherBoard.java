@@ -15,7 +15,16 @@ public class MotherBoard {
     @Id
     private String motherId;
 
-    private String image;
+    private String name;
+
+    private String socket;
+
+    private int form_factor;
 
     private double priceRs;
+
+    private String image;
+
+    private int memory_slots;
+
 }

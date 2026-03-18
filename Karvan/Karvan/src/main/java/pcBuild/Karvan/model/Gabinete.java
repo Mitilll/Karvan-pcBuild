@@ -15,6 +15,12 @@ public class Gabinete {
     @Id
     private String caseId;
 
+    private String name;
+
+    private String type;
+
+    private String Color;
+
     private String image;
 
     private double priceRs;

@@ -13,7 +13,15 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class CpuCooler {
 
     @Id
-    private String CpuId;
+    private String CpuCoolerId;
+
+    private String name;
+
+    private int rpm;
+
+    private double noise_level;
+
+    private boolean rgb;
 
     private String image;
 

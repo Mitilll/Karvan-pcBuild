@@ -15,6 +15,18 @@ public class Storage {
     @Id
     private String storageId;
 
+    private String name;
+
+    private int capacity;
+
+    private String type;
+
+    private int cache;
+
+    private String form_factor;
+
+    private String interfase;
+
     private String image;
 
     private double priceRs;

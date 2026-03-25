@@ -1,5 +1,4 @@
 package pcBuild.Karvan.repository;
 
-
-public interface CpuRepository {
+public interface UserRepository {
 }

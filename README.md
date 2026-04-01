@@ -2,15 +2,15 @@
 
 Plataforma web para montagem de computadores personalizados, permitindo ao usuário selecionar e organizar componentes com base em dados atualizados de mercado.
 
----
+<img width="1024" height="1024" alt="ideogram-v3 0_gere_uma_logo_marca_minimalista_cinza_e_vermelha_use_as_cores_degrade_e_use_como-0" src="https://github.com/user-attachments/assets/c4a985c6-fa65-4a4e-aa52-8b76fb26a27f" />
+
 
 ## Tecnologias
 
-* Java + Spring Boot
-* MongoDB
-* API do Mercado Livre
-* REST APIs
-* JavaScript (Frontend)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
 ---
 

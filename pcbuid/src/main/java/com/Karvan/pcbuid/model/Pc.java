@@ -1,41 +1,22 @@
 package com.Karvan.pcbuid.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@ToString
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
-@Document(collection = "Pc")
+@Document(collection = "pcs")
 public class Pc {
 
     @Id
-    private String pcId;
+    private String id;
 
-    private String imagePixel;
+    private Produto cpu;
+    private Produto gpu;
+    private Produto ram;
+    private Produto storage;
+    private Produto motherboard;
+    private Produto psu;
 
-    private String motherBoardId;
-
-    private String psuId;
-
-    private String cpuCoolerId;
-
-    private String caseId;
-
-    private String cpuId;
-
-    private String gpuId;
-
-    private String ramId;
-
-    private String storageId ;
-
-    private double TotalPriceRs;
-
+    private Double precoTotal;
 }
-

@@ -1,6 +1,7 @@
 package com.Karvan.pcbuid.model;
 
 import lombok.Data;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
